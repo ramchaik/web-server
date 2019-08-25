@@ -4,7 +4,7 @@ body {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
-  
+
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -39,4 +39,17 @@ header a {
 
 .portrait {
   width: 250px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
 }
